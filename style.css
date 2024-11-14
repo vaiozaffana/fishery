@@ -1,0 +1,175 @@
+body {
+    font-family: 'Montserrat', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    align-items: center;
+    top: 0;
+    position: sticky;
+}
+
+nav {
+    display: flex;
+}
+
+.header-navbar, h1, a {
+    margin-left: 2rem;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.header-navbar a {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.header-navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar-div {
+    display: flex;
+    margin: 1rem;
+}
+
+.navbar-sign {
+    display: flex;
+    margin: 1rem;
+}
+
+.quote-sect {
+    width: 100%;
+    height: 87vh;
+    margin-top: -2rem;
+    background: url("./assets/image-fishery.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quote {
+    width: 25%;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #fff;
+    padding-left: 3rem;
+    padding-top: 4.5rem;
+}
+
+.btn-started {
+    margin-left: 3rem;
+    padding: 0.8rem;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: large;
+    cursor: pointer;
+}
+
+.btn-started:hover {
+    margin-left: 3rem;
+    padding: 0.8rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: large;
+    cursor: pointer;
+}
+
+.benefits-container {
+    display: flex;
+}
+
+.benefits-sect h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0 3rem 0;
+    cursor: copy;
+}
+
+.benefits-text {
+    width: 100%;
+    background-color: #000;
+    padding-bottom: 2rem;
+    color: #fff;
+    font-weight: 600;
+    
+}
+
+.benefits-quote {
+    width: 90%;
+    margin-left: 1rem;
+}
+
+img {
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+.benefits-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin: 0.5rem;
+}
+
+.best-container {
+    display: flex;
+}
+
+.best-sect h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0 3rem 0;
+    cursor: copy;
+    font-size: 24px;
+}
+
+.best-text {
+    width: 100%;
+    text-align: center;
+    background-color: #000;
+    padding-bottom: 2rem;
+    color: #fff;
+    font-weight: 600;
+    
+}
+
+.best-box {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin: 0.5rem;
+}
+
+.best-price {
+    margin-left: 1rem;
+    font-weight: 900;
+}
+
+.btn-process {
+    display: flex;
+}
+
+
+
